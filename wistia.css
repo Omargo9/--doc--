@@ -1,0 +1,469 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+
+    display:flex;
+    
+ 
+    
+}
+.brand{
+    width: 20%;
+    display:flex;
+   /* border: 1px solid red;*/
+   
+    
+}
+.brand-logo{
+
+    margin-top:22px;
+    margin-left:20px;
+}
+.brand-text{
+    margin-top:0px;
+
+
+}
+
+
+
+    
+    
+ 
+    
+
+
+
+
+    
+    
+
+
+.nav-bar{
+    
+    display:flex;
+    
+    flex-direction: column;
+  width:70%;
+  height: 80px;
+  border-left: 1px solid #a7aeb9;
+  border-right: 1px solid #a7aeb9;
+  
+  
+    
+}
+/*
+
+.high-nav-bar{
+    
+    
+    
+    border: 1px solid yellow;
+    height:50%;
+    
+    
+    
+}*/
+.high-nav-bar{
+    padding: 10px 20px;
+    display: flex;
+    
+  
+    height:50%;
+}
+.high-nav-items{
+
+
+
+padding: 0px 20px;
+    color: #a7aeb9;
+    text-decoration-line: none;
+}
+.low-nav-items{
+
+
+
+    padding: 10px 20px;
+        color: #a7aeb9;
+        text-decoration-line: none;
+    }
+
+
+  
+
+     
+  
+    .low-nav-bar{
+        
+        padding: 10px 20px;
+        display: flex;
+        border-top: 1px solid #a7aeb9;
+      
+        height:50%;
+
+    }
+
+    
+
+    
+    
+    a{
+        
+        text-decoration:none ;
+    }
+    
+
+        
+    
+
+
+.login-signin{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    width: 30%;
+    height: 80px;
+
+
+}
+.login {
+    width: 50%;
+    border-right: 1px solid #a7aeb9;
+
+}
+.login:hover{
+    background-color: rgb(220, 220, 220);
+}  
+.signin:hover{
+    background-color: rgb(220, 220, 220);
+}  
+    
+
+
+
+.login-signin li{
+    padding:30px 60px;
+    
+   
+
+    
+
+}
+.features-nav-links{
+    display:none;
+}
+.video{
+    width:100%;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    height: 670px;
+}
+.video-description{
+    
+    height: 100%;
+}
+.video-title{
+position:absolute;
+top:150px;
+left:50px;
+
+
+
+}
+.video-link{
+position:absolute;
+top:250px;
+left:100px;
+border:1px solid white;background-color: blanchedalmond;
+
+
+
+
+
+}
+.wistia-hosting-presentation{
+    display: inline-block;
+    width:33%;
+    background-color: #FED24A;
+    height: 40%;
+}
+.fa
+{
+    color: slateblue;
+}
+.wistia-functions img{
+    width: 50px;
+    height: 50px;
+
+    
+    
+}
+.wistia-soapbox-presentation{
+    display: inline-block;
+    width:33%;
+    background-color: #51C29F;
+    height: 40%;
+    
+
+}
+.wistia-growvideo-presentation{
+    display: inline-block;
+    width:34%;
+    background-color: #3EA9F5;
+    
+    height: 40%;
+    position: relative;
+    top: 0px;
+}
+.wistia-functions{
+display:flex;
+
+
+
+}
+.wistia-hosting-text{
+    display:flex;
+    
+    width:60%;
+
+margin: auto;
+
+}
+.wistia-hosting-title{
+    text-align: center;
+}
+.wistia-hosting-learn-link{
+    display: inline-block;
+}
+.wistia-hosting-connection{
+    display: inline-block;
+    margin-left:150px;
+    border: 2px solid white;
+    height: 50px;
+    width: 100px;
+    color:black;
+    
+
+}
+.wistia-hosting-link{
+text-align: center;
+}
+
+.wistia-reference{
+
+    display:flex;
+    
+
+}
+
+
+
+
+
+
+    
+
+
+.reference-text
+{
+    display: inline-block;
+    
+    width:20%;
+    margin-left: 20px;
+    text-align: center;
+    height: 150px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+.reference-text5{
+    padding: auto;
+}
+.reference-logo{
+    display:flex;
+
+
+}
+.reference-logo1{
+    display: inline-block;
+    width: 100px;
+    height:100px ;
+    padding:60px;
+    
+    
+
+}
+.reference-logo2{
+    display: inline-block;
+    width: 200px;
+    height:150px ;
+    padding:20px 60px;
+    
+    margin-top: 60px;
+    
+    
+    
+
+}
+.reference-logo3{
+    display: inline-block;
+    width: 100px;
+    height:100px ;
+    padding:60px;
+    margin-top: 20px;
+    
+
+}
+.reference-logo4{
+    display: inline-block;
+    width: 100px;
+    height:100px ;
+    padding:60px;
+    margin-top: 15px;
+    
+
+}
+
+
+.wistia-advantage{
+    display: flex;
+
+}
+.wistia-advantage-part1{
+    
+    
+    flex-direction: column;
+    width:30%;
+    margin-left:40px;
+    
+
+}
+.pic-part1 img{
+   width: 350px;
+   margin:0px 20px;
+}
+.title-part1{
+    
+    
+    margin-left: 20px;
+}
+.wistia-advantage-part2{
+    display: inline-block;
+    
+    
+    
+    width:30%;
+    margin-left:40px;
+    
+
+}
+.pic-part2 img{
+   width: 350px;
+   margin:0px 20px;
+}
+.title-part2{
+    margin-left: 20px;
+}
+.wistia-advantage-part3{
+    display: inline-block;
+    
+    
+    
+    width:30%;
+    margin-left:40px;
+    
+
+}
+.pic-part3 img{
+   width: 350px;
+   margin:0px 20px;
+}
+.title-part3{
+    margin-left: 20px;
+}
+.text-part1{
+    width:80%;
+    margin-left: 40px;
+    
+    margin-top: 0px;
+    
+}
+.text-part2{
+    width:80%;
+    margin-left: 40px;
+    
+    margin-top: 0px;
+    
+}
+.text-part3{
+    width:80%;
+    margin-left: 40px;
+    
+    margin-top: 0px;
+    
+}
+.top-footer{
+    border: 1px solid gray;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #a7aeb9;
+}
+.left-footer{
+    display:flex;
+}
+.left-footer-logo{
+display:flex;
+    width:30px;
+height:40px ;
+padding: 40px 50px;
+
+}
+/*.left-footer{
+    display:flex;
+}*/
+.footer-text{
+display:flex;
+    
+    width:60%;
+   margin-top:100px;
+    margin-left: 0px;
+    color: aliceblue;
+}
+.right-footer{
+    display:flex;
+    margin-left: 250px;
+    
+}
+.footer-link{
+    
+
+    padding: 40px;
+}
+.bottom-footer{
+    display: block;
+    
+    margin-top: 40px;
+    text-align: center;
+    height:  45px;
+    
+    
+}
+footer{
+    background-color: #363945;
+}
+li{
+    list-style-type: none;
+}
+hr{
+    width: 88%;
+}
+
+.nav-bar a:hover{
+    font-weight: bold;
+    color: black;
+
+}
